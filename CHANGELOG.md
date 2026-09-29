@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.6
+
+- Added a frowning Spiffo with an orange exclamation badge to the error screen.
+- Preserved readable error details and dismissal controls at compact sizes.
+
+See [release notes](release-notes/v1.0.6.md).
+
 ## 1.0.5
 
 - Added two support poses to Spiffo's run cycle, with alternating feet and arm movement.
