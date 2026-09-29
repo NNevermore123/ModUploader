@@ -13,6 +13,7 @@ This is a **closed-source release repository**. Application source code and deve
 ## Features
 
 - Dark interface with a choice to update an existing mod or create a new Workshop listing.
+- English by default, with an instant English / Русский switch in Settings.
 - Dev-project selection, configurable preparation scripts and file-integrity checks.
 - Steam BBCode changelog editor.
 - Independent description and preview toggles for existing listings. When off, those values are preserved in Steam.
@@ -24,16 +25,16 @@ This is a **closed-source release repository**. Application source code and deve
 
 - Windows x64 with .NET Framework 4.8 or newer.
 - An installed Steam copy of Project Zomboid and the Steam client running under your own account. The game can stay closed.
-- Your mod's dev files and Workshop folder. Set paths in **Проект и пути**.
+- Your mod's dev files and Workshop folder. Set paths in **Settings**.
 - PowerShell 7 when using a preparation script. Java, Python or other build tools are only needed if your chosen project's script requires them.
 
-The current UI is in Russian. The tool is for Project Zomboid, not a universal uploader for unrelated Steam games.
+Choose **Settings → App language → English / Русский** to change the interface language. The choice is saved automatically, applies without restarting and keeps your drafts and publication options intact. The tool is for Project Zomboid, not a universal uploader for unrelated Steam games.
 
 ## Use
 
-Choose **Обновить мод** to select an existing project and enter a changelog. **Подготовить файлы** only prepares the local Workshop folder; **Опубликовать** also sends it to Steam.
+Choose **Update a mod** to select an existing project and enter a changelog. **Prepare files** only prepares the local Workshop folder; **Publish** also sends it to Steam.
 
-Choose **Новая публикация** to prepare a local draft from your dev folder. Fill in the listing details and use **Создать и опубликовать** to allocate a Workshop ID and upload. If Steam requests the Workshop legal agreement, accept it on the item page. If creation times out with an uncertain result, inspect your Workshop items before retrying; the tool blocks blind duplicate creation.
+Choose **New listing** to prepare a local draft from your dev folder. Fill in the listing details and use **Create and publish** to allocate a Workshop ID and upload. If Steam requests the Workshop legal agreement, accept it on the item page. If creation times out with an uncertain result, inspect your Workshop items before retrying; the tool blocks blind duplicate creation.
 
 The description/preview switches apply to updates of existing items. A new listing requires these fields. Avoid editing payload files while publishing.
 

@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.0.1
+
+- English is now the default interface language, including when upgrading from 1.0.0.
+- Added an English / Русский selector in Settings with instant switching and automatic saving.
+- Translated navigation, forms, tooltips, progress and application error messages.
+- Switching languages preserves drafts, paths and publication options.
+
+See [release notes](release-notes/v1.0.1.md).
+
 ## 1.0.0
 
 Initial standalone release of Mod Uploader by Nevermore.
