@@ -13,6 +13,9 @@ This is a **closed-source release repository**. Application source code and deve
 ## Features
 
 - Dark interface with a choice to update an existing mod or create a new Workshop listing.
+- Formatted BBCode preview for update notes; click to edit the source text.
+- Separate mod settings beside the selected mod title.
+- Success confirmations with Spiffo and a green check, plus a three-second, click-dismissible publication overlay.
 - English by default, with an instant English / Русский switch in Settings.
 - Dev-project selection, configurable preparation scripts and file-integrity checks.
 - Steam BBCode changelog editor.
@@ -31,7 +34,7 @@ This is a **closed-source release repository**. Application source code and deve
 
 - Windows x64 with .NET Framework 4.8 or newer.
 - An installed Steam copy of Project Zomboid and the Steam client running under your own account. The game can stay closed.
-- Your mod's dev files and Workshop folder. Set paths in **Settings**.
+- Your mod's dev files and Workshop folder. Set individual paths using the gear beside the mod title; set shared paths in **Settings**.
 - PowerShell 7 when using a preparation script. Java, Python or other build tools are only needed if your chosen project's script requires them.
 
 Choose **Settings → App language → English / Русский** to change the interface language. The choice is saved automatically, applies without restarting and keeps your drafts and publication options intact. The tool is for Project Zomboid, not a universal uploader for unrelated Steam games.

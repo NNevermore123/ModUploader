@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.7
+
+- Added success mascot feedback and a three-second, click-dismissible publication confirmation.
+- Separated mod settings from global settings.
+- Added formatted BBCode preview for update notes, with click-to-edit behavior.
+
+See [release notes](release-notes/v1.0.7.md).
+
 ## 1.0.6
 
 - Added a frowning Spiffo with an orange exclamation badge to the error screen.
