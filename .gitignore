@@ -1,0 +1,10 @@
+# Release-only repository: everything is ignored unless explicitly allowed below.
+*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/CHANGELOG.md
+!/release-notes/
+!/release-notes/v*.md
+!/assets/
+!/assets/overview.png
