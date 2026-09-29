@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.8
+
+- Preparation scripts are now optional for all mods, including Java.
+- Leave the field empty to upload prepared files; configured scripts still stop publication on failure.
+- Updated English/Russian settings hints.
+
+See [release notes](release-notes/v1.0.8.md).
+
 ## 1.0.7
 
 - Added success mascot feedback and a three-second, click-dismissible publication confirmation.

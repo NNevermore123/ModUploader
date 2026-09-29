@@ -17,7 +17,7 @@ This is a **closed-source release repository**. Application source code and deve
 - Separate mod settings beside the selected mod title.
 - Success confirmations with Spiffo and a green check, plus a three-second, click-dismissible publication overlay.
 - English by default, with an instant English / Русский switch in Settings.
-- Dev-project selection, configurable preparation scripts and file-integrity checks.
+- Dev-project selection, optional preparation scripts for Java and Lua mods and file-integrity checks.
 - Steam BBCode changelog editor.
 - Independent description and preview toggles for existing listings. When off, those values are preserved in Steam.
 - New listing title, description, preview and visibility, with private visibility by default.
