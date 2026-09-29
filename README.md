@@ -20,6 +20,10 @@ This is a **closed-source release repository**. Application source code and deve
 - New listing title, description, preview and visibility, with private visibility by default.
 - Saved Workshop IDs, progress feedback and detailed error logs.
 - Uses your running Steam account and verifies ownership before updates.
+- Removes missing source mods when you run Find mods, with optional local file deletion through Delete mod.
+- Steam BBCode controls in both update notes and descriptions.
+- Full-image Workshop previews and a separate in-game icon editor, with mod icons in the sidebar and header.
+- Transparent mascot logo and matching Windows application icon.
 
 ## Requirements
 
@@ -37,6 +41,12 @@ Choose **Update a mod** to select an existing project and enter a changelog. **P
 Choose **New listing** to prepare a local draft from your dev folder. Fill in the listing details and use **Create and publish** to allocate a Workshop ID and upload. If Steam requests the Workshop legal agreement, accept it on the item page. If creation times out with an uncertain result, inspect your Workshop items before retrying; the tool blocks blind duplicate creation.
 
 The description/preview switches apply to updates of existing items. A new listing requires these fields. Avoid editing payload files while publishing.
+
+**Find mods** removes entries whose source folder or `mod.info` is missing. **Delete mod** lets you remove only the app entry, delete the Workshop folder, or delete Workshop plus the mod's source files. File deletion requires a second confirmation showing the exact folders. It does not remove the Steam listing or the surrounding dev repository. Use **+ Dev folder** to restore an entry you removed from the app.
+
+Click the Workshop preview to see the full image. Under **In-game icon**, choose the mod version (`mod.info`), select a PNG and click **Apply to source files**. The source icon is saved separately from the Workshop preview and will be included when you next prepare/publish. Mods without an icon display a placeholder.
+
+Both editors have a **More** menu for headings, lists, quote, code, spoiler, divider, images, tables and embeds, plus [Steam's formatting reference](https://steamcommunity.com/comment/WorkshopItem/formattinghelp). Steam controls which tags render on each text surface.
 
 ## Signature and local data
 

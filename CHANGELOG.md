@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.0.2
+
+- Added Delete mod with a choice of removing the entry or deleting local Workshop/source files, with exact-path confirmation.
+- Find mods now clears entries whose source files are missing.
+- Expanded Steam BBCode controls in both text editors and removed the redundant description hint.
+- Workshop previews now fit without cropping and open at a larger size.
+- Added a separate in-game icon editor, with icons shown in the sidebar and mod header.
+- Added a larger transparent mascot logo and matching Windows EXE icon.
+
+See [release notes](release-notes/v1.0.2.md).
+
 ## 1.0.1
 
 - English is now the default interface language, including when upgrading from 1.0.0.
