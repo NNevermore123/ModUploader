@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.5
+
+- Added two support poses to Spiffo's run cycle, with alternating feet and arm movement.
+- Bounce and shadow now follow the four-frame cycle.
+- Wind now travels right to left, 1.5 times faster.
+
+See [release notes](release-notes/v1.0.5.md).
+
 ## 1.0.4
 
 - Simplified the footer to two action buttons.
