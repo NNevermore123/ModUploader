@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.0.3
+
+- Replaced the native Delete mod window with an internal overlay that dims and blocks the rest of the app.
+- Added transparent Spiffo artwork beside a burning barrel and softly flickering firelight.
+- Three exclusive choices now show explanatory tooltips, with centered mod details and Cancel/Delete buttons.
+- Exact-path confirmation stays inside the overlay; Escape and Cancel preserve drafts and restore focus.
+
+See [release notes](release-notes/v1.0.3.md).
+
 ## 1.0.2
 
 - Added Delete mod with a choice of removing the entry or deleting local Workshop/source files, with exact-path confirmation.

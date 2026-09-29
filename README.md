@@ -24,6 +24,7 @@ This is a **closed-source release repository**. Application source code and deve
 - Steam BBCode controls in both update notes and descriptions.
 - Full-image Workshop previews and a separate in-game icon editor, with mod icons in the sidebar and header.
 - Transparent mascot logo and matching Windows application icon.
+- Internal Delete mod overlay with transparent Spiffo artwork, flickering firelight and three choices with tooltips.
 
 ## Requirements
 
