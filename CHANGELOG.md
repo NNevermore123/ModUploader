@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.0.4
+
+- Simplified the footer to two action buttons.
+- Added a centered running Spiffo with bounce, shadow, wind and progress/status below it.
+- The full app dims and blocks input while an operation runs.
+- Confirmed success shows a second mascot leaning on a green checkmark for one second.
+- Errors and required Workshop agreement instructions remain readable until dismissed.
+
+See [release notes](release-notes/v1.0.4.md).
+
 ## 1.0.3
 
 - Replaced the native Delete mod window with an internal overlay that dims and blocks the rest of the app.
