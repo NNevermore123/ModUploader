@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.0.9
+
+- Added local mod installation with exact-path and obsolete-file confirmation.
+- Allowed confirmed cleanup of obsolete backups/archives in the local test copy without creating backups.
+- Added a green-outlined Launch game button for Project Zomboid through Steam.
+- Added larger mod action buttons, filled vector icons and a clearer settings gear, keeping actions beside the mod icon and title.
+- Added Spiffo success feedback after local installation, dismissed after three seconds or on click.
+- Rewrote the English README with setup and usage workflows and current English screenshots.
+
+See [release notes](release-notes/v1.0.9.md).
+
 ## 1.0.8
 
 - Preparation scripts are now optional for all mods, including Java.
