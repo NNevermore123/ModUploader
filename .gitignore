@@ -3,6 +3,7 @@
 !/.gitignore
 !/.gitattributes
 !/README.md
+!/LICENSE.md
 !/CHANGELOG.md
 !/release-notes/
 !/release-notes/v*.md

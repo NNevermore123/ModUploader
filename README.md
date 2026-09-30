@@ -113,6 +113,14 @@ Get-Content .\SHA256SUMS.txt
 
 The EXE's hash must match the value beside `ModUploader.exe` in `SHA256SUMS.txt`.
 
+## License
+
+Copyright © 2026 Nevermore. All rights reserved.
+
+Mod Uploader is proprietary software. You may download and use the official, unmodified application free of charge. Modifying or rebuilding the application, publishing its source code or distributing modified versions requires prior written permission, except where applicable law permits otherwise.
+
+These restrictions apply to Mod Uploader itself, not to the mods you create or publish with it. Sharing official download links is permitted. See [LICENSE.md](LICENSE.md) for the full permissions, restrictions and legal exceptions.
+
 ## Validation and support
 
 Release preparation checks offline behavior, UI states, local-copy fixtures and the signed EXE's cryptographic integrity. Screenshots show the English interface. Automated checks do not perform real Steam publication or prove your mod works in gameplay or multiplayer; test those separately.
